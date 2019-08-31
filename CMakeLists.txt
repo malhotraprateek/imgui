@@ -7,8 +7,6 @@ project(imgui)
 
 set(root ${CMAKE_CURRENT_SOURCE_DIR})
 
-message( ${root})
-
 set(phdrs ${root}/imgui.h)
 set(hdrs ${root}/imstb_rectpack.h ${root}/imstb_textedit.h ${root}/imstb_truetype.h
     ${root}/imgui_internal.h)
